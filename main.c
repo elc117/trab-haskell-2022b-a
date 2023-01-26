@@ -17,25 +17,11 @@ int main()
     char circulo4[137];
     char fim[7];
     char stringTotal[5000];
-    /*char stringAux[5000];
-    int cx = 88;
-    int cy = 99;*/
 
     sprintf(inicio, "<svg width='1366' height='598' xmlns='http://www.w3.org/2000/svg'>\n");
     sprintf(fim, "</svg>");
 
     srand(time(NULL));
-    /*for(int i = 0; i < 2; i++) {
-        for(int j = 0; j < 2; j++) {
-            int red = numAleatorio();
-            int green = numAleatorio();
-            int blue = numAleatorio();
-            sprintf(circulos + strlen(circulos) + 1, "<circle cx='%d' cy='%d'  r='25' width='5' height='1' style='fill:rgb(%d,%d,%d); mix-blend-mode: screen;'/>\n\0", cx,cy,red,green,blue);
-            printf("%d %d, ", cx, cy);
-            cx+= 55;
-        }
-        cy+= 55;
-    }*/
 
     int red = numAleatorio();
     int green = numAleatorio();
